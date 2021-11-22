@@ -1,0 +1,62 @@
+.icon {
+  width: 50px;
+  margin-bottom: 375px;
+}
+
+.temp {
+  margin-bottom: 385px;
+}
+
+img {
+  width: 500px;
+}
+
+#desc1 {
+  display: none;
+  position: absolute;
+  left: 650px;
+  top: 110px;
+}
+
+#desc2 {
+  display: none;
+  position: absolute;
+  left: 650px;
+  top: 560px;
+}
+
+#desc3 {
+  display: none;
+  position: absolute;
+  left: 650px;
+  top: 1000px;
+}
+
+#desc4 {
+  display: none;
+  position: absolute;
+  left: 650px;
+  top: 1450px;
+}
+
+#img1:hover + #desc1 {
+  display: block;
+}
+
+#img2:hover + #desc2 {
+  display: block;
+}
+
+#img3:hover + #desc3 {
+  display: block;
+}
+
+#img4:hover + #desc4 {
+  display: block;
+}
+
+#credits {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
