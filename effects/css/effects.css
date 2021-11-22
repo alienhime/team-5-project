@@ -53,16 +53,6 @@ ul#navigation-bar a:hover {
   color: #968d81;
 }
 
-p.intro {
-  font-size: 20px;
-  margin-bottom: 50px;
-}
-
-p.desc {
-  font-size: 18px;
-  color: #3985bf;
-}
-
 body {
   margin:0;
 }
@@ -89,7 +79,6 @@ p {
   letter-spacing: 1px;
   font-size:14px;
   color: #333333;
-  margin-left: 10px;
 }
 
 ul {
@@ -106,7 +95,6 @@ li {
   background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
   color:white;
 }
-
 .logo {
   width:50px;
   fill:white;
@@ -186,118 +174,4 @@ li {
   h1 {
     font-size:24px;
   }
-}
-
-.icon {
-  width: 50px;
-  margin-bottom: 375px;
-}
-
-.temp {
-  margin-top: 5px;
-  margin-bottom: 415px;
-  margin-left: 50px;
-  text-align: right;
-  font-family: Segoe Print;
-  color: #257abc;
-  line-height: 75%;
-}
-
-img {
-  width: 500px;
-  position: relative;
-}
-
-#img1::before,
-#img1::after {
-  --scale: 0;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-10%) scale(var(--scale));
-  transition: 150ms transform;
-}
-
-#img1::before {
-  content: attr(data-desc1);
-  color: white;
-  font-family: 'Lato', sans-serif;
-  padding: .5rem;
-  border-radius: .3rem;
-  background: #257abc;
-}
-
-#img1:hover::before{
-  --scale: 1;
-}
-
-#img2::before,
-#img2::after {
-  --scale: 0;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-10%) scale(var(--scale));
-  transition: 150ms transform;
-}
-
-#img2::before {
-  content: attr(data-desc2);
-  color: white;
-  font-family: 'Lato', sans-serif;
-  padding: .5rem;
-  border-radius: .3rem;
-  background: #257abc;
-}
-
-#img2:hover::before{
-  --scale: 1;
-}
-
-#img3::before,
-#img3::after {
-  --scale: 0;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-10%) scale(var(--scale));
-  transition: 150ms transform;
-}
-
-#img3::before {
-  content: attr(data-desc3);
-  color: white;
-  font-family: 'Lato', sans-serif;
-  padding: .5rem;
-  border-radius: .3rem;
-  background: #257abc;
-}
-
-#img3:hover::before{
-  --scale: 1;
-}
-
-#img4::before,
-#img4::after {
-  --scale: 0;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-10%) scale(var(--scale));
-  transition: 150ms transform;
-}
-
-#img4::before {
-  content: attr(data-desc4);
-  color: white;
-  font-family: 'Lato', sans-serif;
-  padding: .5rem;
-  border-radius: .3rem;
-  background: #257abc;
-}
-
-#img4:hover::before{
-  --scale: 1;
-}
-
-#credits {
-  position: fixed;
-  bottom: 0;
-  right: 0;
 }
