@@ -1,5 +1,5 @@
 html {
-  background-color: lightgreen;
+  background-color: lightblue;
 }
 
 p {
@@ -7,6 +7,20 @@ p {
 }
 h1 {
   margin-left: 4%;
+}
+
+.pack {
+  background-color: pink;
+  border: solid white 4px;
+  font-weight: bold;
+  margin-left: 4%;
+}
+
+#image {
+  margin-top: 4%;
+  margin-right: 50%;
+  margin-left: 5%;
+  border: Solid green 4px;
 }
 
 #top {
@@ -23,8 +37,8 @@ h1 {
   border: dotted gold;
   margin-right: 60%;
   margin-left: 5%;
-  margin-top: 13%;
-  padding: 10px;
+  margin-top: 5%;
+  padding: 10px;xs
 }
 
 #box-two {
@@ -54,16 +68,67 @@ h1 {
   margin-top: 2%;
 }
 
-.pack {
-  background-color: pink;
-  border: solid white 4px;
-  font-weight: bold;
+#test {
+  background-color: lightgreen;
+  border: solid white 3px;
+  margin-right: 60%;
+  margin-left: 5%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding: 10px;
 }
 
-#design {
-  width: 150px;
-  height: 1000px;
-  background-color: lightblue;
-  margin-left: 80%;
-  float: right;
+#testtwo {
+    background-color: crimson;
+    color: white;
+    border: solid black 3px;
+    margin-right: 60%;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 10px;
+}
+
+#operation {
+    background-color: crimson;
+    color: white;
+    border: solid black 3px;
+    margin-right: 60%;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 10px;
+
+}
+
+#operationtwo {
+  background-color: lightgreen;
+  border: solid white 3px;
+  margin-right: 60%;
+  margin-left: 5%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding: 10px;
+}
+
+#procedure {
+  background-color: lightgreen;
+  border: solid white 3px;
+  margin-right: 60%;
+  margin-left: 5%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding: 10px;
+}
+
+#proceduretwo {
+    background-color: crimson;
+    color: white;
+    border: solid black 3px;
+    margin-right: 60%;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 10px;
+
 }
