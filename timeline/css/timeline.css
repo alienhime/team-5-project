@@ -205,52 +205,95 @@ li {
 
 img {
   width: 500px;
+  position: relative;
 }
 
-#desc1 {
-  display: none;
+#img1::before,
+#img1::after {
+  --scale: 0;
   position: absolute;
-  left: 700px;
-  top: 700px;
-  font-size: 18px;
-  color: #3985bf;
+  left: 50%;
+  transform: translateX(-10%) scale(var(--scale));
+  transition: 150ms transform;
 }
 
-#desc2 {
-  display: none;
+#img1::before {
+  content: attr(data-desc1);
+  color: white;
+  font-family: 'Lato', sans-serif;
+  padding: .5rem;
+  border-radius: .3rem;
+  background: #257abc;
+}
+
+#img1:hover::before{
+  --scale: 1;
+}
+
+#img2::before,
+#img2::after {
+  --scale: 0;
   position: absolute;
-  left: 700px;
-  top: 1150px;
+  left: 50%;
+  transform: translateX(-10%) scale(var(--scale));
+  transition: 150ms transform;
 }
 
-#desc3 {
-  display: none;
+#img2::before {
+  content: attr(data-desc2);
+  color: white;
+  font-family: 'Lato', sans-serif;
+  padding: .5rem;
+  border-radius: .3rem;
+  background: #257abc;
+}
+
+#img2:hover::before{
+  --scale: 1;
+}
+
+#img3::before,
+#img3::after {
+  --scale: 0;
   position: absolute;
-  left: 700px;
-  top: 1600px;
+  left: 50%;
+  transform: translateX(-10%) scale(var(--scale));
+  transition: 150ms transform;
 }
 
-#desc4 {
-  display: none;
+#img3::before {
+  content: attr(data-desc3);
+  color: white;
+  font-family: 'Lato', sans-serif;
+  padding: .5rem;
+  border-radius: .3rem;
+  background: #257abc;
+}
+
+#img3:hover::before{
+  --scale: 1;
+}
+
+#img4::before,
+#img4::after {
+  --scale: 0;
   position: absolute;
-  left: 700px;
-  top: 2025px;
+  left: 50%;
+  transform: translateX(-10%) scale(var(--scale));
+  transition: 150ms transform;
 }
 
-#img1:hover + #desc1 {
-  display: block;
+#img4::before {
+  content: attr(data-desc4);
+  color: white;
+  font-family: 'Lato', sans-serif;
+  padding: .5rem;
+  border-radius: .3rem;
+  background: #257abc;
 }
 
-#img2:hover + #desc2 {
-  display: block;
-}
-
-#img3:hover + #desc3 {
-  display: block;
-}
-
-#img4:hover + #desc4 {
-  display: block;
+#img4:hover::before{
+  --scale: 1;
 }
 
 #credits {
