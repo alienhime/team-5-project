@@ -103,10 +103,10 @@ div.link img{
 }
 
 div.link{
-  margin: 50px;
+  margin: 40px;
   border: 1px solid #ccc;
   float: left;
-  width: 350px;
+  width: 250px;
 }
 
 div.link:hover{
