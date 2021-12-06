@@ -82,15 +82,6 @@
        $("#risks").append("<p>Beaches: " + data[0].risks[0].beaches);
        $("#risks").append("<p>Agriculture: " + data[0].risks[0].agriculture);
        $("#risks").append("<p>Cultural Archeological Resources: " + data[0].risks[0].cultural_archeological_resources);
-       // console.log(comicObj);
-       // console.log(comicObj.title);
-       // $("#imgTitle").html(comicObj.title);
-       // console.log(comicObj.img);
-       // var imgUrl = comicObj.img;
-       // var imgTag = "<img src=" + imgUrl + ">";
-       // $("#comic").html(imgTag);
-       // console.log(comicObj.alt);
-       // $("#alt_text").html(comicObj.alt);
    },
    // What we do if the api call fails
    error: function (jqXHR, textStatus, errorThrown) {
