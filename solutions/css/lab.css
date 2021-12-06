@@ -103,6 +103,30 @@ ul#navigation-bar a:hover {
   padding: 10px;
 
 }
+
+
+#box-four {
+  background-color: papayawhip;
+  color: black;
+  border: dotted gold;
+  margin-right: 60%;
+  margin-left: 5%;
+  margin-top: 2%;
+  padding: 10px;
+
+}
+
+#box-five{
+  background-color: papayawhip;
+  color: black;
+  border: dotted gold;
+  margin-right: 60%;
+  margin-left: 5%;
+  margin-top: 2%;
+  padding: 10px;
+
+}
+
 #hub {
   padding: 2px;
   margin-top: 2%;
@@ -151,7 +175,7 @@ ul#navigation-bar a:hover {
   padding: 10px;
 }
 
-#procedure {
+#proceduretwo {
   background-color: lightgreen;
   border: solid white 3px;
   margin-right: 60%;
@@ -161,7 +185,7 @@ ul#navigation-bar a:hover {
   padding: 10px;
 }
 
-#proceduretwo {
+#procedure {
     background-color: crimson;
     color: white;
     border: solid black 3px;
@@ -171,6 +195,51 @@ ul#navigation-bar a:hover {
     margin-bottom: 4%;
     padding: 10px;
 
+}
+
+#objective {
+  background-color: lightgreen;
+  border: solid white 3px;
+  margin-right: 60%;
+  margin-left: 5%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding: 10px;
+}
+
+#goal{
+    background-color: crimson;
+    color: white;
+    border: solid black 3px;
+    margin-right: 60%;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 10px;
+
+}
+
+#finale{
+    background-color: crimson;
+    color: white;
+    border: solid black 3px;
+    margin-right: 60%;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 10px;
+
+}
+
+
+#the-end {
+  background-color: lightgreen;
+  border: solid white 3px;
+  margin-right: 60%;
+  margin-left: 5%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding: 10px;
 }
 
 
